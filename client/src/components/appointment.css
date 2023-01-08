@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-color: #F9F9F9;
+   
+}
+.Appointments-wrapper hr{
+    border: 1px solid #06283D;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    
+   
+}
+.Appointments-wrapper-left .Patient-appointment-detail
+{
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.Patient-appointment-detail .ap 
+{
+     margin-left:150px;
+    
+}
+.Patient-appointment-detail .st 
+{
+     margin-left:170px;
+}
+.Patient-appointment-detail .ph 
+{
+     margin-left:150px;
+}
+
+.Patient-appointment-detail .im{
+    margin-top: -30px;
+}
+.Patient-appointment-detail .ac {
+
+    margin-left: 250px;
+   margin-top: -70px;
+   padding-bottom:-100px;
+   padding-top:-100px;
+    
+}
+.Patient-appointment-detail .ac .context-menu-container .ac-dot{
+
+    display: block;
+    margin-top:40px;
+    
+   
+
+}
+
+.Patient-appointment-detail .im .internal 
+{
+    display: inline-flex;
+     margin-left:0px;
+     margin-right:10px;
+
+}
+.Patient-appointment-detail .im .internal h4
+{
+    margin-top: 15px;
+   font-size: x-large;
+   margin-left: 30px;
+
+}
+.Patient-appointment-detail .im .internal h5
+{
+  
+   margin-left: 30px;
+
+}
+ 
+ 
+ 
+  
+.Appointments-wrapper header{
+
+    margin-top: 30px;
+    margin-left:50px;
+
+}
+
+.Appointments-wrapper header ul{
+    font-size: large;
+    font-weight: bold;
+   
+  display: inline-flex;
+}
+.Appointments-wrapper .Pa{
+
+   margin-left:30px;
+  }
+  .Appointments-wrapper  .Ap{
+
+    margin-left:200px;
+   }
+   .Appointments-wrapper  .St{
+
+    margin-left:150px;
+   }
+   .Appointments-wrapper  .Ph{
+
+    margin-left:150px;
+   }
+   .Appointments-wrapper  .Ac{
+
+    margin-left:300px;
+   }
+   
+   
+  
+
+   .Appointments-wrapper-left
+   {
+    background-color: #fafafb;
+    width:97%;
+    margin-left:15px;
+   padding-bottom:30px;
+   border-radius: 5px;
+   box-shadow: 0 5px 25px -5px rgb(0 0 0 / 10%);
+   height: 100px;
+
+    
+   }
+   
+
+
+
+.Appointments-wrapper hr{
+    border: 1px solid rgb(219, 205, 205);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.Appointments-wrapper img{
+	display: block;
+    
+	width: 70px;
+	height: 70px;
+    border-radius: 50%;
+    border: 5px solid #205375;
+	
+    margin-left:30px;
+
+    
+}
+.Appointments-overview
+{
+    position: relative;
+    margin-left:-800px;
+    display: inline-block;
+    margin-top:10px;
+    
+
+}
+.Appointments-navbar{
+    width:90%;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 750px;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.Appointments-wrapper
+{
+    
+  margin-left:50px;
+  position: absolute;
+  background-color:#fafafb ;
+  margin-top: 120px;
+
+  height: 650px;
+  width: 70%;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow:10px 10px 8px #888888;
+  
+    
+
+}
+.Appointments-overview h4{
+  
+    font-size: larger;
+    color: #fff;
+}
+.Appointments-overview h1{
+    display: inline-block;
+   
+    font-size: xx-large;
+    color: #F66B0E;
+}
+
+.Appointments-navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.Appointments-navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: bolder;
+   
+}
+.Appointments-navbar ul li::after{
+    content:'';
+    height:7px;
+    width:100%;
+    background: #ff652f;
+    position:absolute;
+    left:0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.5s;
+}
+.Appointments-navbar ul li:hover::after{
+    
+    width:100%;
+    
+}

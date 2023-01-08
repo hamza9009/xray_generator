@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+ 
+    background-image:url(backgroundtest.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+ .Registration-top{
+  margin-top: 50px;
+    display:block;
+    min-width: 1700px;
+}
+  .Registration-navbar{
+  
+   
+   
+    padding:35px 0;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 87%;
+    margin-top: -80px;
+    padding-bottom: 100px;
+   
+   
+   
+   
+}
+
+.Registration-navbar h2
+{
+    font-family: cursive;
+    color: #8B0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:xx-large;
+}  
+
+.Registration-navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.Registration-navbar ul li a{
+    text-decoration: none;
+    color: #1B2430;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: bolder;
+   
+}
+.Registration-navbar ul li::after{
+    content:'';
+    height:7px;
+    width:100%;
+    background: #ff652f;
+    position:absolute;
+    left:0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.5s;
+}
+.Registration-navbar ul li:hover::after{
+    
+    width:100%;
+    
+}
+
+
+  .Registration-wrapper{
+     
+   
+
+    height: 300px;
+    width: 500px;
+      display: flex;
+      justify-content: center;
+  
+      margin-top: 100px;
+      align-items: center;
+      margin-left: 550px;
+      margin-right: 100px;
+    
+  }
+  .Registration-form .gender-details .gender-title
+  {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .Registration-form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+
+  }
+  .Registration-form .dob select{
+    padding: 5px;
+    font-size: 10px;
+    background-color: #fff;
+    border-radius: 10%;
+    border: 2
+    px solid rgba(0, 204, 255, 0.664);
+
+  }
+  .Registration-form .dob h4
+  {
+    font-weight: lighter;
+    margin-bottom: 5px;
+  }
+.gender-details .category .dot{
+  height: 18px;
+  width: 18px;
+  background:#d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 3px solid rgba(255, 60, 0, 0.747);
+  
+}
+.gender-details .category label{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.Registration-form {
+    position:relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 80px 40px 40px;
+    background: #fff;
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  }
+  .Registration-form::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+    transform: skewX(-17.9deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+  .Registration-form img {
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    width: 100px;
+    background: rgba(255,255,255, 0.8);
+    border-radius: 50%;
+  }
+  .Registration-form h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5rem;
+    color: #ff652f;
+  }
+  .Registration-form .input-group {
+    position: relative;
+  }
+  .Registration-form .input-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+  }
+
+  .Registration-form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0px;
+    padding-top:-25px;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+    background-color: none;
+  }
+  .Registration-form .input-group input:focus + label,
+  .Registration-form .input-group input:valid + label
+  {
+    transform: translateY(-33px);
+    color: #ff652f;
+    font-size: .8rem;
+  }
+  .submit-btn-p {
+    display: inline-block;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background: #AEDBCE;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    padding-left:20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-btn-d{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #00bcd4;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin-left:15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .bottons{
+    display: inline-flex;
+  }
+  

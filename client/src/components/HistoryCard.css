@@ -1,0 +1,53 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+.History-card {
+  /* border-style: solid; */
+  border-radius: 10px;
+  width: 70%;
+  background-color: whitesmoke;
+  margin-top: 100px;
+}
+.btn-add {
+  border-color: blueviolet;
+  border-radius: 15px;
+  margin: 20px;
+  width: 200px;
+  height: 30px;
+  
+}
+.input-text {
+  border: 2px solid blueviolet;
+  padding: 5px;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.input-btn {
+  padding-top: 5px;
+  margin-left: 5px;
+  width: 200px;
+  
+  font-weight: bold;
+  border-style: none;
+}
+label {
+  margin-right: 2px;
+}
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */

@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+   
+}
+
+
+
+
+.top-header
+{
+    display: block;
+    height:100px;
+    width: 200px;
+    
+    margin-right: 950px;
+}
+.FindPatient-conatiner_search{
+    display: inline-flex;
+ 
+    margin-top: 50px;
+    position: absolute;
+
+   
+ }  
+
+.FindPatient-conatiner_search .searchbar{
+        width:100%;
+        max-width: 400px;
+        height:40px;
+        background: #F9F9F9;
+        align-items: center;
+        border-radius: 60px;
+        margin-top:50px;
+        margin-left:0px;
+        padding-right:0px;
+        padding: 4px 5px;
+        
+        backdrop-filter: blur(4px) saturate(180%);
+      
+    }
+    .FindPatient-conatiner_search  .searchbar input{
+        background: transparent;
+        display: inline;
+        border: 0;
+        outline: none;
+       
+
+        padding-left: 10px;
+       padding-right: 80px;
+        font-size: 20px;
+        color: #F9F9F9;
+     
+
+    }
+        
+    .FindPatient-conatiner_search  .searchbar button img{
+      width: 30px;
+      display: inline-block;
+     
+
+    }
+    .FindPatient-conatiner_search  .searchbar button {
+        border: 0;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        background: #F9F9F9;
+        cursor: pointer;
+       
+        display: inline-block;
+      
+       
+  
+      }
+    ::placeholder
+    {
+        color: #06283D;
+    }
+         
+
+
+.FindPatient-wrapper .sidebar .profile img{
+	display: block;
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+    border: 5px solid #205375;
+	margin: 0  auto;
+    margin-bottom: 0;
+}
+.FindPatient-wrapper .sidebar .toplogo .dx
+{
+    color:#112B3C;
+    margin: 5px 25px 0px;
+    font-size: 30px;
+
+}
+.FindPatient-wrapper .sidebar .toplogo .generator
+{
+    color:crimson;
+    margin: 0 50px 40px;
+    font-size: 30px;
+
+}
+.FindPatient-wrapper .sidebar .profile h3{
+	color: #112B3C;
+	margin: -8px 0 5px;
+}
+.FindPatient-wrapper .sidebar .profile p{
+	color: #06283D;
+	font-size: 14px;
+}
+.FindPatient-wrapper .sidebar hr{
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+  
+.FindPatient-wrapper .sidebar{
+	background:#ffff;
+	position: fixed;
+    display: inline-block;
+
+	left: 0px;
+	width: 270px;
+	height: 99%;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px;
+   
+    
+}
+.FindPatient-wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.FindPatient-wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 40px 15px;
+	border-bottom: 2px solid #10558d;
+	color:#112B3C;
+	font-size: 16px;
+	position: relative;
+}
+.FindPatient-wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+.FindPatient-wrapper .sidebar ul li a img{
+	width: 40px;
+	height: 40px;
+    border-radius: 50%;
+    margin-bottom: -12px;
+    margin-left: 0px;
+    margin-right: 5px;
+
+
+	display: inline-block;
+}
+.FindPatient-wrapper .sidebar ul li a:hover,
+.FindPatient-wrapper .sidebar ul li a.active{
+	color: #F66B0E;
+    font-weight: bold;
+    font-size: 20px;
+	background:white;
+    /*border-right: 2px solid rgb(5, 68, 104);*/
+}
+.FindPatient-wrapper .sidebar ul li a:hover .icon,
+.FindPatient-wrapper .sidebar ul li a.active .icon{
+	color: #0c7db1;
+}
+.FindPatient-wrapper .sidebar ul li a:hover:before,
+.FindPatient-wrapper .sidebar ul li a.active:before{
+	display: block;
+}
+
+
+
+.FindPatient-wrapper .sidebar button {
+  background-color:#fff;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color:#112B3C;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 4px solid #990000;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left:60px;
+  margin-top: 190px;
+  touch-action: manipulation;
+}
+
+.FindPatient-wrapper .sidebar button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FindPatient-profile-wrapper
+{
+    
+  margin-left: 100px;
+  position: relative;
+  margin-top:100px;
+  background-color:#fff ;
+  top: 100px;
+  height: 230px;
+  width:550px;
+  display: inline-flex;
+  
+  border-radius: 15px;
+  box-shadow:10px 10px 8px #888888;
+  
+  
+    
+    
+
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-left
+{
+   display: inline-block;
+    margin-left: 10px;
+    width: 240px;
+ 
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-right
+{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 5px;
+   
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-left h2{
+	color: #112B3C;
+	
+    padding-right: 10px;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 6px;
+    
+   
+}
+.FindPatient-profile-wrapper h3{
+	color: #06283D;
+	font-size: 14px;
+    margin: -8px 100px 30px;
+  
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-right h4{
+	color: #06283D;
+	font-size: 20px;
+    margin-left:0px;
+    margin-top: 40px;
+    padding-bottom:10px;
+    display: inline-block;
+    
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-right p{
+	color: #06283D;
+    display: inline-block;
+	font-size: 20px;
+    margin-left:20px;
+    
+}
+.FindPatient-profile-wrapper hr{
+    border: 1px solid rgb(219, 205, 205);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.FindPatient-profile-wrapper .FindPatient-profile-wrapper-left img{
+    
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+    border: 5px solid #205375;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top:10px;
+}
+
+.FindPatient-conatiner_search h4{
+  
+    font-size: larger;
+    color: #fff;
+}
+.FindPatient-conatiner_search h1{
+   
+    margin-top: 25px;
+    margin-left: -80px;
+   
+    font-size: xx-large;
+    color: #F66B0E;
+}
+
+.FindPatient-profile-wrapper .nextBtn  {
+    background-color:#fff;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color:#112B3C;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 4px solid #990000;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top:20px;
+    user-select: none;
+    -webkit-user-select: none;
+
+    
+    touch-action: manipulation;
+  }
+  
+  .FindPatient-profile-wrapper .nextBtn :hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  

@@ -1,0 +1,96 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 1200px;
+  margin-top: 70px;
+  /* background-image: url("./src/img.jpeg"); */
+
+  /* align-items: center; */
+}
+.body-report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-report {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:10px;
+}
+.btn-report {
+  width: 100px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+  /* background: transparent; */
+  border-style: none;
+
+  /* color:white; */
+}
+.btn-report-logout {
+  width: 100px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 1rem;
+  /* text-decoration: underline;
+  text-decoration-color: blueviolet; */
+  /* background: transparent; */
+  border: 2px solid red;
+  background-color: blue;
+  color: white;
+  /* border-style: none; */
+
+  /* color:white; */
+}
+
+/* search box styling */
+
+* {
+  box-sizing: border-box;
+  border-radius: 25px;
+  /* margin-top: 60%; */
+}
+.example {
+  margin-top: 6%;
+}
+/* Style the search field */
+.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  /* border: 1px solid grey; */
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-style: none;
+}
+
+/* Style the submit button */
+.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #dddddd;
+  color: white;
+  font-size: 17px;
+  /* border: 1px solid grey; */
+  border-style: none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
